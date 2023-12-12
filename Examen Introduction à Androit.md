@@ -1,10 +1,10 @@
-# Examen Introduction à Androit
+Examen Introduction à Android
 
-## Partie 1: QCM  0.5pt/question
+## ==Partie 1==: QCM  0.5pt/question
 
 ### Question1
 
-1. Parmi les assertions suivantes, lesquelles sont **fausses**
+1. Parmi les assertions suivantes, lesquelles sont **==fausses==**
    - [x] a. Une classe peut hériter de plusieurs classes
    - [ ] b. Une classe peut implémenter plusieurs interfaces
    - [x] c. Une classe est final par défaut
@@ -50,7 +50,7 @@
 
    - En Kotlin, une variable déclarée avec `val` est immutable, ce qui signifie que sa valeur ne peut pas changer une fois qu'elle est initialisée
 
-## Partie 2: Questions à réponses ouvertes
+## ==Partie 2:== Questions à réponses ouvertes
 
 ### Question1
 
@@ -83,13 +83,14 @@ Quelle est la différence entre une classe et une interface ? (2 pt)
 
 À quoi sert le mot clé lateinit en Kotlin, quand peut-on l'utiliser et quelle précaution doit-on prendre en l'utilisant ? (2pts)
 
-* Le mot clé `lateinit` est utilisé pour déclarer qu'une variable sera initialisée plus tard. Il ne peut être utilisé qu'avec des types non primitifs et non nullables. Il faut s'assurer que la variable est initialisée avant son utilisation, sinon une exception sera levée.
+* Le mot clé `lateinit` est utilisé pour déclarer qu'une variable sera initialisée plus tard. Il ne peut être utilisé qu'avec des types non primitifs et non nullables. Il faut s'assurer que **la variable est initialisée avant son utilisation**, sinon une exception sera levée.
 
 ### Question4
 
-Quelle est la différence entre une activité et un fragment ? (2 pt)
+Quelle est la différence entre une **activité** et un **fragment** ? (2 pt)
 
-* Une activité est un composant d'application qui fournit une écran avec une interface utilisateur pour que l'utilisateur interagisse. Un fragment, en revanche, est une portion modulaire d'une activité, qui a son propre cycle de vie, reçoit ses propres événements d'entrée et peut être ajouté ou retiré lors de l'exécution de l'activité.
+* Une activité est un composant d'application qui fournit une écran avec une interface utilisateur pour que l'utilisateur interagisse. 
+* Un fragment, en revanche, est une portion modulaire d'une activité, qui a son propre cycle de vie, reçoit ses propres événements d'entrée et peut être ajouté ou retiré lors de l'exécution de l'activité.
 
 ### Question5
 

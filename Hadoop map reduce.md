@@ -10,7 +10,7 @@ La derniere question est une question ouverte, elle compte pour plus de points. 
 
 Parmi les propositions suivantes, selectionnez celle qui decrit le mieux l'operation shuffle au sein du paradigme map/reduce tel qu'implementé dans Hadoop.
 
-- [x] Une operation executee apres map qui regroupe ensemble les tuples, ayant la même clef
+- [x] Une operation executee **apres map** qui **regroupe** ensemble les tuples, ayant **la même clef**
 - [ ] Une operation executee apres reduce qui regroupe ensembles les tuples ayant la même clef 
 - [ ] Une operation executee après map qui mélange les tuples ensemble pour produire un ensemble representatif
 - [ ] Une operation executee apres reduce qui melange les tuples ensemble pour produire un ensemble representatif
@@ -55,9 +55,9 @@ Selectionnez ci-dessous la proposition qui est **fausse**.
 
 ## Q4.
 
-Qu'a-t on generalement en entree d'une fonction reduce ?
+Qu'a-t on generalement en **entree** d'une fonction **reduce** ?
 
-- [x] Une **serie de valeurs** associees à une clef distincte
+- [x] Une **serie de valeurs** associees à une **clef distincte**
 - [ ] Un ensemble de couple (clef;valeur)
 - [ ] Des fragments de donnees d'entree
 - [ ] Un unique couple (clef;valeur) ou une valeur littérale
@@ -74,7 +74,7 @@ Dans le contexte de Hadoop, quel est i'interet de HDFS ?
 - [ ] HDFS permet de lire des donnees depuis n'importe ou dans le monde, du moment qu'une connexion est disponible
 - [ ] HDFS permet de stocker des donnees sans disque dur, en utilisant la RAM uniquement
 - [ ] C'est la seule manière pour Hadoop de lire les donnees d'entrée d'un programme
-- [x] HDFS permet de stocker des donnees de manière distribuée **sur un cluster** Hadoop
+- [x] HDFS permet de stocker des donnees de manière **distribuée** **sur un cluster** Hadoop
 
    1. **Réponse:** `4`. HDFS permet de stocker des donnees de maniere distribuée sur un cluster Hadoop
 
@@ -85,7 +85,7 @@ Dans le contexte de Hadoop, quel est i'interet de HDFS ?
 
 Quelle est la principale difference fondamentale, non liée aux performances, dans l'application du paradigme map/reduce entre un framework comme Hadoop et un  frameworkcomme Spark ?
 
-- [x] Le moteur d'éxcution sauvegarde un maximum de donnees **en memoire** dans Spark par rapport a Hadoop
+- [x] Le moteur d'éxcution sauvegarde un maximum de donnees **en memoire** dans **Spark** par rapport a Hadoop
 - [ ] Les frameworks comme Spark permettent de supporter des clusters bien plus larges qu'Hadoop en terme de machines.
 - [ ] Les frameworks comme Spark ont une interpretation moins formelle du paradigme; et non limitée necessairement à des fonctions rigides < map  > et 《 reduce 》  implementer.
 - [ ] Les frameworks comme Spark supportent plus de langages de programmation que Java uniquement, au contraire de Hadoop.
@@ -168,7 +168,7 @@ Quelle tache accompli-t'il ?
 - [ ] Il regroupe les enregistrements par date de naissance.
 - [ ] Il filtre les enregistrements par date de naissance, en enlevant les personnes agées de moins de 20 ans.
 - [ ] ll regroupe les enregistrements par date de naissance, en **séparant** les personnes agées **de** moins de 20 ans des autres.
-- [x] Il **regroupe** les enregistrements par double-décennie de naissance (1960, 1980, etc,).
+- [x] Il **regroupe** les enregistrements par **double-décennie** de naissance (1960, 1980, etc,).
 
    1. **Réponse:** `4`. Il regroupe les enregistrements par double-décennie de naissance (1960, 1980, etc.).
 
@@ -308,7 +308,7 @@ La valeur data2 renvoyée sera un entier. Quelle sera sa valeur ?
 
 On imagine qu'on dispose d'une liste de ventes effectuées dans un magasin. Pour chacune d'entre elle, on a le **montant**, **le jour de la semaine ou la vente a été effectuée**, la **date** exacte de la vente, et le nom du produit.
 
-Les donnees sont tres larges et on vous demande en consequence d'implementer un programme map/reduce Hadoop pour établir des statistiques sur le montant des ventes selon le jour de la semaine, mais seulement  partir de l'annee 2000. Les donnees sont fragmentées par vente (une ligne = une vente).
+Les donnees sont tres larges et on vous demande en consequence d'implementer un programme map/reduce Hadoop pour établir des statistiques sur le montant des ventes **selon le jour de la semaine,** mais seulement  partir de l'annee 2000. Les donnees sont fragmentées par vente (une ligne = une vente).
 
 Indiquez quelle clef vous choisiriez dans votre programme, de quels types de variable seraient vos clefs et valeurs, et decrivez rapidement les opérations que feraient alors vos fonctions map et reduce.
 

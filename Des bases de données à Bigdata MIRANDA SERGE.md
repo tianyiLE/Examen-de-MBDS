@@ -70,10 +70,10 @@ Chaque question vaut 1 point sauf celles ayant une indication spécifique, -0.5 
 
 ## Question05
 
-1. Une base de données NON-Structurée correspond à (2 choix):
+1. Une base de données **NON**-**Structurée** correspond à (2 choix):
 
-   - [x] une approche N.O.SQL
-   - [x] une approche non relationnelle
+   - [x] une approche **N.O.SQL**
+   - [x] une approche non **relationnelle**
    - [ ] l'existence de metadata de type balise XML
    - [ ] l'existence d'un schéma prédéfini
 
@@ -97,6 +97,8 @@ Chaque question vaut 1 point sauf celles ayant une indication spécifique, -0.5 
   - Transaction, Interface, Persistance et Structuration
 
   **Explication:** Bien que "TIPS" ne soit pas un acronyme couramment associé aux SGBD relationnels, la réponse la plus logique ici serait Transaction, Interface, Persistance et Structuration, car ils sont tous des concepts pertinents pour les bases de données relationnelles.
+  
+  ![image-20231212204632065](C:\Users\t.le\AppData\Roaming\Typora\typora-user-images\image-20231212204632065.png)
 
 ## Question07 *
 
@@ -427,14 +429,14 @@ Formation (PL#, AVNOM, REFP, Date)  <REFP : Pointeur du 'Pilote' ayant reçu la 
 
    Est:
 
-   1. INCORRECTE
-   2. CORRECTE
+   - [ ] INCORRECTE
+   - [x] CORRECTE
 
 * **Réponse:**
 
-  1. INCORRECTE
+  1. ~~INCORRECTE~~
 
-  **Explication:** La requête tente de suivre plusieurs pointeurs REF successifs à partir d'un objet initial. Cependant, il semble que certains de ces pointeurs n'existent pas dans le schéma fourni. Par exemple, `Refavion→ Refavbis→ Refpil` semble incorrect car `Refavbis` pointe vers un autre avion, pas directement vers un pilote.
+  **Explication:** ~~La requête tente de suivre plusieurs pointeurs REF successifs à partir d'un objet initial. Cependant, il semble que certains de ces pointeurs n'existent pas dans le schéma fourni. Par exemple, `Refavion→ Refavbis→ Refpil` semble incorrect car `Refavbis` pointe vers un autre avion, pas directement vers un pilote.~~
 
 ## Question23
 
@@ -552,7 +554,7 @@ author : Dauthor)
 
 **Les requêtes suivantes dans le langage de DATE sont-elles correctes**
 
-参考P293
+==参考P293==
 
 ## Question26
 
