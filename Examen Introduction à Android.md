@@ -7,14 +7,13 @@ Examen Introduction à Android
 1. Parmi les assertions suivantes, lesquelles sont **==fausses==**
    - [x] a. Une classe peut hériter de plusieurs classes
    - [ ] b. Une classe peut implémenter plusieurs interfaces
-   - [x] c. Une classe est final par défaut
+   - [ ] c. Une classe est final par défaut
    - [x] d. Une interface est final par défaut
 
    **Explication :**
    
    - a. En Java, une classe ne peut pas hériter de plusieurs classes (faux). Cela diffère de l'héritage multiple en interfaces.
    - b. Une classe peut implémenter plusieurs interfaces (vrai).
-   - c. Une classe n'est pas `final` par défaut. Si elle l'était, elle ne pourrait pas être étendue (faux).
    - d. Une interface n'est pas `final` par défaut. Les interfaces sont destinées à être implémentées (faux).
 
 ### Question2
@@ -61,12 +60,12 @@ Compléter la colonne de droite du tableau suivant en ajoutant une définition d
 | val            | Définir des variables immuables (ne peuvent pas être modifiées après initialisation) |
 | var            | Définir des variables mutables (peuvent être modifiées après initialisation) |
 | class          | Définir une structure pour créer des objets (modèles pour les objets) |
-| interface      | Définir un contrat que d'autres classes peuvent implémenter (méthodes sans corps) |
+| interface      | Définir un contrat que d'autres classes peuvent implémenter <br />**Provide a contract all implementing classes must adhere to** |
 | open           | Permettre qu'une classe ou méthode soit surclassable (override) dans les classes enfants |
 | fun            | Définir une fonction ou une méthode                          |
-| adapter        | Connecter et convertir des données à une vue (dans les listes ou recycler views) |
-| Intent         | Permettre la communication entre les composants de l'application (démarrer une activité, envoyer des données) |
-| Manifest       | Déclarer les composants de l'application et les permissions requises |
+| adapter        | Connecter et convertir des données à une vue (dans les listes ou recycler views)<br />**Supplies data and layouts that the RecyclerView displays** |
+| Intent         | Permettre la communication entre les composants de l'application (démarrer une activité, envoyer des données)<br />**Requests an action from another app component, such as another Activity** |
+| Manifest       | **Configuration file**<br />Déclarer les composants de l'application et les permissions requises |
 | startActivity  | Démarrer une nouvelle activité                               |
 | setContentView | Définir la vue (layout) pour une activité                    |
 | findViewById   | Trouver une vue dans le layout à l'aide de son ID            |
@@ -77,19 +76,27 @@ Compléter la colonne de droite du tableau suivant en ajoutant une définition d
 
 Quelle est la différence entre une classe et une interface ? (2 pt)
 
-* La différence principale entre une classe et une interface est que la classe est un modèle complet pour créer des objets, avec des implémentations complètes de méthodes, tandis qu'une interface est un contrat qui définit des méthodes sans corps. Les classes peuvent hériter d'une seule autre classe mais peuvent implémenter plusieurs interfaces.
+* La différence principale entre une classe et une interface est 
+  * que la classe est un modèle complet pour créer des objets, ~~avec des implémentations complètes de méthodes, tandis qu'~~
+
+* une interface est un contrat que d'autres classes peuvent implémenter
+* Les classes peuvent hériter d'une seule autre classe mais peuvent implémenter plusieurs interfaces.
 
 ### Question3
 
 À quoi sert le mot clé lateinit en Kotlin, quand peut-on l'utiliser et quelle précaution doit-on prendre en l'utilisant ? (2pts)
 
-* Le mot clé `lateinit` est utilisé pour déclarer qu'une variable sera initialisée plus tard. Il ne peut être utilisé qu'avec des types non primitifs et non nullables. Il faut s'assurer que **la variable est initialisée avant son utilisation**, sinon une exception sera levée.
+* Le mot clé `lateinit` est utilisé pour déclarer qu'une variable sera initialisée plus tard. Il ne peut être utilisé qu'avec des types non primitifs et non nullables.
+*  Il faut s'assurer que **la variable est initialisée avant son utilisation**, sinon une exception sera levée.
 
 ### Question4
 
 Quelle est la différence entre une **activité** et un **fragment** ? (2 pt)
 
-* Une activité est un composant d'application qui fournit une écran avec une interface utilisateur pour que l'utilisateur interagisse. 
+* Une activité est un **composant** d'application qui fournit une écran avec une interface utilisateur pour que l'utilisateur interagisse. 【**An Activity is a means for the user to** 
+
+  **accomplish one main goal.** Une activité est un moyen pour l'utilisateur d'accomplir un objectif principal.】
+
 * Un fragment, en revanche, est une portion modulaire d'une activité, qui a son propre cycle de vie, reçoit ses propres événements d'entrée et peut être ajouté ou retiré lors de l'exécution de l'activité.
 
 ### Question5

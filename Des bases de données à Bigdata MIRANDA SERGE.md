@@ -137,14 +137,14 @@ Chaque question vaut 1 point sauf celles ayant une indication spécifique, -0.5 
   
   ![image-20231212004236755](C:\Users\t.le\AppData\Roaming\Typora\typora-user-images\image-20231212004236755.png)
 
-## Question09
+## Question09 ^^
 
 1. Le concept de **relation** dans le modèle relationnel de Codd (2 choix):
 
    - [ ] correspond une TABLE dans SQL2 dans laquelle les colonnes peuvent être multivaluées (des ensemble de valeurs)
-   - [x] correspond à un **prédicat** à n **variables** en logique du premier ordre
+   - [x] correspond à un **prédicat** à n **variables** en **logique** du premier ordre
    - [ ] correspond à l'union d'ensembles appelés domaines
-   - [x] correspond au **sous-ensemble** du produit **cartésien** de n ensembles appelés domaines
+   - [x] correspond au **sous-ensemble** du produit **cartésien** de n ensembles appelés **domaines**
    - [ ] correspond à une matrice de valeurs à un instant donné (au sens algèbre linéaire)
 
 * **Réponse:**
@@ -159,7 +159,7 @@ Chaque question vaut 1 point sauf celles ayant une indication spécifique, -0.5 
 1. Le concept de **domaine** du modèle relationnel de Codd (2 choix):
 
    - [x] Joue le rôle d'un type de données sémantique (ensemble de valeurs)
-   - [x] Est un pré-requis à la création des relations
+   - [x] Est un **pré-requis** à la création des **relations**
    - [ ] Est uniquement un simplificateur syntaxique comme en SQL
    - [ ] Ne peut être utilisé qu'une fois dans la définition d'une même relation
 
