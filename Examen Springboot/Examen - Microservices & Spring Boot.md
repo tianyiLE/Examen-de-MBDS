@@ -9,17 +9,19 @@
    
    - [ ] Le *time to market* sera égal à la somme des temps de développements de tous les services
    
+   ![image-20240216002555991](C:\Users\t.le\AppData\Roaming\Typora\typora-user-images\image-20240216002555991.png)
+   
 2. Quelle affirmation est vraie à propos des **architectures Microservices ?**
    - [ ] Faire évoluer le projet après le développement initial est complexe
    
-   - [x] Le coût initial global de développement sera supérieur comparativement aux architectures monolithiques
+   - [x] Le coût initial **global** de développement sera supérieur comparativement aux architectures monolithiques
    
    - [ ] Le coût des tâches d’évolution sera supérieur comparativement aux architectures monolithiques
    
    - [ ] Le coût d’hébergement sera supérieur comparativement aux architectures monolithiques
    
 3. Quelles affirmations sont vraies à propos des **architectures Microservices ?**
-   
+  
    - [x] Elles supportent mieux les modifications en cours de projet que les architectures monolithiques
    
    - [ ] Elles sont plus résilientes face à la complexité
@@ -29,28 +31,28 @@
    - [ ] Elles vont diminuer la compétitivité de l’entreprise qui la mettent en oeuvre
    
 4. Quelles affirmations sont vraies à propos des **architectures Microservices** ?
-   
-   - [x] Elles sont liées à des thèmes abordés dans les domaines des API REST
+  
+   - [x] Elles sont liées à des thèmes abordés dans les domaines des **API REST**
    
    - [ ] Échangent principalement via des échanges SOAP
 
    - [ ] Chaque composant a une visibilité sur l’architecture complète
    
-   - [x] Elles sont étroitement liées avec le Single Responsibility Principle
+   - [x] Elles sont étroitement liées avec le **Single Responsibility Principle**
    
 5. Quelles affirmations sont vraies à propos des architectures Microservices ?
    - [ ] Elles doivent être développées sur un seul et même environnement technique (tout en Spring ou tout en Python par exemple)
    
-   - [x] Elles peuvent avoir autant de contexte techniques différentes de que « services »
+   - [x] Elles peuvent avoir autant de contexte techniques **différentes** de que « services »
    
    - [ ] Elles doivent partager une même base de données pour tous les « services »
 
    - [ ] Elles doivent être développées pour fonctionner sur des bases de données relationnelles
    
-   - [x] Elles peuvent faire cohabiter tous types de base de données simultanément
+   - [x] Elles peuvent faire cohabiter **tous types** de base de données simultanément
    
 6. Quelles affirmations sont vraies à propos de Spring Boot ?
-   
+  
    - [ ] C’est l’équivalent de Spring avec d’autres langages
    
    - [x] C’est une surcouche du framework Spring
@@ -59,7 +61,7 @@
    
    - [x] S’appuie sur un ensemble de « starters »
 
-7. La gestion de la persistance dans Spring Boot via JPA implique plusieurs composants, quels sont-ils ?
+7. La gestion de la persistance dans Spring Boot via **JPA** implique plusieurs composants, quels sont-ils ?
    - [x] Les « Repository »
    
    - [ ] Les « Controller »
@@ -70,8 +72,10 @@
    
    - [ ] Les « Service »
    
-8. Quels sont les « Repository » dont on peut « extends » ?
+   ![image-20240216003539653](C:\Users\t.le\AppData\Roaming\Typora\typora-user-images\image-20240216003539653.png)
    
+8. Quels sont les « Repository » dont on peut « extends » ?
+  
    - [ ] EntityRepository
    
    - [x] CrudRepository
@@ -84,6 +88,8 @@
    
    - [ ] SimpleRepository
    
+   ![image-20240216003759169](C:\Users\t.le\AppData\Roaming\Typora\typora-user-images\image-20240216003759169.png)
+   
 9. Lors de la création d'un « Repository », on doit « extends » le « Repository » souhaité et préciser ces éléments ...
    - [ ] La cardinalité des relations
    
@@ -91,7 +97,7 @@
    
    - [x] Le type de l'identifiant de l'entité désignée
    
-   - [ ] La classe de l'entité désignée
+   - [x] La classe de l'entité désignée
    
 10. Les « Repository » exposent un certain nombre de méthodes, quelles sont-elles ?
    - [x] save
@@ -102,8 +108,10 @@
    
    - [ ] update
    
+   - [ ] ![image-20240216004127914](C:\Users\t.le\AppData\Roaming\Typora\typora-user-images\image-20240216004127914.png)
+   
 11. Quelles seront les conséquences de la déclaration dans un « RestController » d'une méthode précédée de l'annotation « @GetMapping(value = '/products') » ?
-   - [x] La méthode sera exécutée lors d'un appel sur l'url « /products » en GET
+   - [x] La méthode sera exécutée lors d'un appel sur l'url « /products » en **GET**
    
    - [ ] La méthode sera exécutée lors d'un appel sur l'url « /products » en POST
    
@@ -112,7 +120,7 @@
    - [ ] La méthode doit renvoyer une réponse à l'utilisateur sans quoi le serveur retournera une erreur 500
    
 12. L'injection de dépendances peut se faire de plusieurs manières, quelles sont-elles ?
-   
+  
    - [x] Injection sur les attributs
    
    - [x] Injection sur les méthodes
@@ -126,3 +134,5 @@
    - [ ] Injection sur la classe
    
    - [x] Injection sur les getters / setters
+   
+   ![image-20240216004356718](C:\Users\t.le\AppData\Roaming\Typora\typora-user-images\image-20240216004356718.png)

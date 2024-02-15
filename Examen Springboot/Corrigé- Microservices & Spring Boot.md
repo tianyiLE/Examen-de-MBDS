@@ -35,7 +35,7 @@
    - **Faux** : Elles doivent partager une même base de données pour tous les « services ». Idéalement, chaque service gère sa propre base de données pour éviter les dépendances.
    - **Faux** : Elles doivent être développées pour fonctionner sur des bases de données relationnelles. Les microservices peuvent utiliser tout type de stockage de données, y compris non relationnel.
 
-      - **Vrai** : Elles peuvent faire cohabiter tous types de base de données simultanément, offrant une flexibilité dans la gestion des données.
+   - **Vrai** : Elles peuvent faire cohabiter tous types de base de données simultanément, offrant une flexibilité dans la gestion des données.
 
 
 6. **Vraies affirmations sur Spring Boot** :

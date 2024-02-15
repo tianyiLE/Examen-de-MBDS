@@ -89,4 +89,4 @@
     - **Faux** : Être capable de briller en société. Bien que connaître SOLID puisse impressionner dans certains milieux, ce n'est pas l'objectif principal.
     - **Vrai** : Être capable de concevoir des systèmes flexibles, tolérants aux pannes, scalable avec des composants hautement interopérants (Stateless) qui vous permettront facilement de mettre en œuvre des architectures type « Micro-services ».
 
-        - **Vrai** : Donner un ensemble de guidelines qui vont vous mener vers un ensemble de bonnes pratiques qui vous permettront de vous adapter à n'importe quelle équipe de développement.
+    - **Vrai** : Donner un ensemble de guidelines qui vont vous mener vers un ensemble de bonnes pratiques qui vous permettront de vous adapter à n'importe quelle équipe de développement.
